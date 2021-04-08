@@ -3,6 +3,7 @@ const titleValue = document.getElementById("title");
 const directorValue = document.getElementById("director");
 const bannerValue = document.getElementById("url");
 const secondCardBody = document.querySelectorAll("card-body")[1];
+const clearAll = document.getElementById("clear-films")
 
 const ui = new UI();
 const storage = new Storage();
@@ -12,7 +13,7 @@ function eventListeners() {
   form.addEventListener("submit", takeInformations);
   document.addEventListener("DOMContentLoaded", loadAllFilms);
   document.addEventListener("click", deleteFilmFromUI);
-  document.addEventListener("click", deleteAllFilms);
+  clearAll.addEventListener("click", deleteAllFilms);
 }
 
 function deleteAllFilms(e){
