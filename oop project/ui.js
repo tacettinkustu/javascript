@@ -47,3 +47,12 @@ UI.prototype.loadFilmsToStorage = function(films){
         `
     })
 }
+
+UI.prototype.deleteFilm = function(element){
+    element.parentElement.parentElement.remove()
+}
+
+UI.prototype.deleteAllFilmsFromUI = function(){
+    const tbody = document.getElementById("films");
+    tbody.innerHTML = ""
+}
