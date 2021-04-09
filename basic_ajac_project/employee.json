@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ali Göde",
+    "department": "Bilişim",
+    "salary": 3000
+  },
+  {
+    "name": "Veli Bal",
+    "department": "İnsan Kaynakları",
+    "salary": 3500
+  },
+  {
+    "name": "Serhat Say",
+    "department": "Üretim",
+    "salary": 3800
+  }
+]
